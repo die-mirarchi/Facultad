@@ -41,39 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Facultad
-
-
-#############################################
-# Order-only phony target for Facultad
-
-build cmake_object_order_depends_target_Facultad: phony || CMakeFiles/Facultad.dir
-
-build CMakeFiles/Facultad.dir/main.c.obj: C_COMPILER__Facultad_Debug C$:/Users/DIGID/CLionProjects/Facultad/main.c || cmake_object_order_depends_target_Facultad
-  DEP_FILE = CMakeFiles\Facultad.dir\main.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu99
-  OBJECT_DIR = CMakeFiles\Facultad.dir
-  OBJECT_FILE_DIR = CMakeFiles\Facultad.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Facultad
-
-
-#############################################
-# Link the executable Facultad.exe
-
-build Facultad.exe: C_EXECUTABLE_LINKER__Facultad_Debug CMakeFiles/Facultad.dir/main.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Facultad.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Facultad.exe
-  TARGET_IMPLIB = libFacultad.dll.a
-  TARGET_PDB = Facultad.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target Str1
 
 
@@ -106,6 +73,39 @@ build Str1.exe: C_EXECUTABLE_LINKER__Str1_Debug CMakeFiles/Str1.dir/Strings/Stri
   TARGET_IMPLIB = libStr1.dll.a
   TARGET_PDB = Str1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Str2
+
+
+#############################################
+# Order-only phony target for Str2
+
+build cmake_object_order_depends_target_Str2: phony || CMakeFiles/Str2.dir
+
+build CMakeFiles/Str2.dir/Strings/String2.c.obj: C_COMPILER__Str2_Debug C$:/Users/DIGID/CLionProjects/Facultad/Strings/String2.c || cmake_object_order_depends_target_Str2
+  DEP_FILE = CMakeFiles\Str2.dir\Strings\String2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu99
+  OBJECT_DIR = CMakeFiles\Str2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Str2.dir\Strings
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Str2
+
+
+#############################################
+# Link the executable Str2.exe
+
+build Str2.exe: C_EXECUTABLE_LINKER__Str2_Debug CMakeFiles/Str2.dir/Strings/String2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Str2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Str2.exe
+  TARGET_IMPLIB = libStr2.dll.a
+  TARGET_PDB = Str2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,9 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Facultad: phony Facultad.exe
-
 build Str1: phony Str1.exe
+
+build Str2: phony Str2.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +144,7 @@ build Str1: phony Str1.exe
 #############################################
 # Folder: C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug
 
-build all: phony Facultad.exe Str1.exe
+build all: phony Str1.exe Str2.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,4 +1,4 @@
-C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Facultad.dir
 C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Str1.dir
+C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Str2.dir
 C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/rebuild_cache.dir
