@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Facultad"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str1">
+				<Option output="D:/Programacion/Facultad/cmake-build-debug/Str1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str1"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str1/fast">
+				<Option output="D:/Programacion/Facultad/cmake-build-debug/Str1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str1/fast"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str2">
+				<Option output="D:/Programacion/Facultad/cmake-build-debug/Str2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str2"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str2/fast">
+				<Option output="D:/Programacion/Facultad/cmake-build-debug/Str2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str2/fast"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str3">
+				<Option output="D:/Programacion/Facultad/cmake-build-debug/Str3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str3"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str3/fast">
+				<Option output="D:/Programacion/Facultad/cmake-build-debug/Str3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str3/fast"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str4">
+				<Option output="D:/Programacion/Facultad/cmake-build-debug/Str4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str4"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str4/fast">
+				<Option output="D:/Programacion/Facultad/cmake-build-debug/Str4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str4/fast"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str5">
+				<Option output="D:/Programacion/Facultad/cmake-build-debug/Str5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str5"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str5/fast">
+				<Option output="D:/Programacion/Facultad/cmake-build-debug/Str5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str5/fast"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Programacion/Facultad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programacion/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Programacion/Facultad/Strings/String1.c">
+			<Option target="Str1"/>
+		</Unit>
+		<Unit filename="D:/Programacion/Facultad/Strings/String2.c">
+			<Option target="Str2"/>
+		</Unit>
+		<Unit filename="D:/Programacion/Facultad/Strings/String3.c">
+			<Option target="Str3"/>
+		</Unit>
+		<Unit filename="D:/Programacion/Facultad/Strings/String4.c">
+			<Option target="Str4"/>
+		</Unit>
+		<Unit filename="D:/Programacion/Facultad/Strings/String5.c">
+			<Option target="Str5"/>
+		</Unit>
+		<Unit filename="D:/Programacion/Facultad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

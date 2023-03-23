@@ -16,7 +16,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -32,7 +35,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -51,6 +57,27 @@
 					"jsonFile" : "target-Str2-Debug-2480f1ad3642f29d288b.json",
 					"name" : "Str2",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Str3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Str3-Debug-a3c34aa0350190c406e7.json",
+					"name" : "Str3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Str4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Str4-Debug-64a393a63ccb35b30dc9.json",
+					"name" : "Str4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Str5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Str5-Debug-08640b4dd78385a4e465.json",
+					"name" : "Str5",
+					"projectIndex" : 0
 				}
 			]
 		}
@@ -58,8 +85,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug",
-		"source" : "C:/Users/DIGID/CLionProjects/Facultad"
+		"build" : "D:/Programacion/Facultad/cmake-build-debug",
+		"source" : "D:/Programacion/Facultad"
 	},
 	"version" : 
 	{
