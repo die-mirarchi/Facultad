@@ -6,7 +6,7 @@
 int main() {
     char Words[5][WORD_LEN] = {0};
     char Max[WORD_LEN] = {0};
-    unsigned int MaxLen = 0;
+    unsigned long long MaxLen = 0;
     for (int i = 0; i < 5; ++i) {
         fgets(Words[i], sizeof(Words[i]), stdin);
     }

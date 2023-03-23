@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Str4.exe"
+			"path" : "Str3.exe"
 		},
 		{
-			"path" : "Str4.pdb"
+			"path" : "Str3.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "Str4::@6890427a1f51a3e7e1df",
+	"id" : "Str3::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "Str4",
-	"nameOnDisk" : "Str4.exe",
+	"name" : "Str3",
+	"nameOnDisk" : "Str3.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Strings/String4.c",
+			"path" : "Strings/String3.c",
 			"sourceGroupIndex" : 0
 		}
 	],

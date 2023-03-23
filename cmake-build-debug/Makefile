@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named EXPstr
+
+# Build rule for target.
+EXPstr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 EXPstr
+.PHONY : EXPstr
+
+# fast build rule for target.
+EXPstr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXPstr.dir\build.make CMakeFiles/EXPstr.dir/build
+.PHONY : EXPstr/fast
+
+#=============================================================================
 # Target rules for targets named Str1
 
 # Build rule for target.
@@ -179,6 +192,30 @@ Str5: cmake_check_build_system
 Str5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Str5.dir\build.make CMakeFiles/Str5.dir/build
 .PHONY : Str5/fast
+
+Strings/EjemploLibreriaString.obj: Strings/EjemploLibreriaString.c.obj
+.PHONY : Strings/EjemploLibreriaString.obj
+
+# target to build an object file
+Strings/EjemploLibreriaString.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXPstr.dir\build.make CMakeFiles/EXPstr.dir/Strings/EjemploLibreriaString.c.obj
+.PHONY : Strings/EjemploLibreriaString.c.obj
+
+Strings/EjemploLibreriaString.i: Strings/EjemploLibreriaString.c.i
+.PHONY : Strings/EjemploLibreriaString.i
+
+# target to preprocess a source file
+Strings/EjemploLibreriaString.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXPstr.dir\build.make CMakeFiles/EXPstr.dir/Strings/EjemploLibreriaString.c.i
+.PHONY : Strings/EjemploLibreriaString.c.i
+
+Strings/EjemploLibreriaString.s: Strings/EjemploLibreriaString.c.s
+.PHONY : Strings/EjemploLibreriaString.s
+
+# target to generate assembly for a file
+Strings/EjemploLibreriaString.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EXPstr.dir\build.make CMakeFiles/EXPstr.dir/Strings/EjemploLibreriaString.c.s
+.PHONY : Strings/EjemploLibreriaString.c.s
 
 Strings/String1.obj: Strings/String1.c.obj
 .PHONY : Strings/String1.obj
@@ -308,11 +345,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... EXPstr
 	@echo ... Str1
 	@echo ... Str2
 	@echo ... Str3
 	@echo ... Str4
 	@echo ... Str5
+	@echo ... Strings/EjemploLibreriaString.obj
+	@echo ... Strings/EjemploLibreriaString.i
+	@echo ... Strings/EjemploLibreriaString.s
 	@echo ... Strings/String1.obj
 	@echo ... Strings/String1.i
 	@echo ... Strings/String1.s

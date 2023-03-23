@@ -3,6 +3,7 @@ project(Facultad C)
 
 set(CMAKE_C_STANDARD 99)
 
+add_executable(EXPstr Strings/EjemploLibreriaString.c)
 add_executable(Str1 Strings/String1.c)
 add_executable(Str2 Strings/String2.c)
 add_executable(Str3 Strings/String3.c)
