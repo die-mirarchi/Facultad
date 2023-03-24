@@ -4,5 +4,6 @@ D:/Programacion/Facultad/cmake-build-debug/CMakeFiles/Str2.dir
 D:/Programacion/Facultad/cmake-build-debug/CMakeFiles/Str3.dir
 D:/Programacion/Facultad/cmake-build-debug/CMakeFiles/Str4.dir
 D:/Programacion/Facultad/cmake-build-debug/CMakeFiles/Str5.dir
+D:/Programacion/Facultad/cmake-build-debug/CMakeFiles/StrcUni1.dir
 D:/Programacion/Facultad/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Programacion/Facultad/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -10,3 +10,4 @@ add_executable(Str3 Strings/String3.c)
 add_executable(Str4 Strings/String4.c)
 add_executable(Str5 Strings/String5.c)
 
+add_executable(StrcUni1 StructYUnion/StrcUni1.c)
