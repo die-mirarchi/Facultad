@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Programacion/Facultad/Strings/String1.c" "CMakeFiles/Str1.dir/Strings/String1.c.obj" "gcc" "CMakeFiles/Str1.dir/Strings/String1.c.obj.d"
+  "/home/die/CLionProjects/Facultad/Strings/String1.c" "CMakeFiles/Str1.dir/Strings/String1.c.o" "gcc" "CMakeFiles/Str1.dir/Strings/String1.c.o.d"
   )
 
 # Targets to which this target links.

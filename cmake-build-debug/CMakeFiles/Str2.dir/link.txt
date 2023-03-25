@@ -1,3 +1,1 @@
-"D:\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Str2.dir/objects.a
-"D:\CLion 2022.3.3\bin\mingw\bin\ar.exe" qc CMakeFiles\Str2.dir/objects.a @CMakeFiles\Str2.dir\objects1.rsp
-"D:\CLion 2022.3.3\bin\mingw\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\Str2.dir/objects.a -Wl,--no-whole-archive -o Str2.exe -Wl,--out-implib,libStr2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Str2.dir\linklibs.rsp
+/usr/bin/cc -g CMakeFiles/Str2.dir/Strings/String2.c.o -o Str2 

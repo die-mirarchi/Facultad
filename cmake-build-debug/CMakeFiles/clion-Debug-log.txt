@@ -1,4 +1,4 @@
-"D:\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\Programacion\Facultad -B D:\Programacion\Facultad\cmake-build-debug
+/snap/clion/229/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/die/CLionProjects/Facultad -B /home/die/CLionProjects/Facultad/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/Programacion/Facultad/cmake-build-debug
+-- Build files have been written to: /home/die/CLionProjects/Facultad/cmake-build-debug

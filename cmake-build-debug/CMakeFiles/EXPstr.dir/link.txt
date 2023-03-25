@@ -1,3 +1,1 @@
-"D:\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\EXPstr.dir/objects.a
-"D:\CLion 2022.3.3\bin\mingw\bin\ar.exe" qc CMakeFiles\EXPstr.dir/objects.a @CMakeFiles\EXPstr.dir\objects1.rsp
-"D:\CLion 2022.3.3\bin\mingw\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\EXPstr.dir/objects.a -Wl,--no-whole-archive -o EXPstr.exe -Wl,--out-implib,libEXPstr.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\EXPstr.dir\linklibs.rsp
+/usr/bin/cc -g CMakeFiles/EXPstr.dir/Strings/EjemploLibreriaString.c.o -o EXPstr 

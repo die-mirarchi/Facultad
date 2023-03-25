@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/StrcUni1.dir/StructYUnion/StrcUni1.c.obj"
-  "CMakeFiles/StrcUni1.dir/StructYUnion/StrcUni1.c.obj.d"
-  "StrcUni1.exe"
-  "StrcUni1.exe.manifest"
+  "CMakeFiles/StrcUni1.dir/StructYUnion/StrcUni1.c.o"
+  "CMakeFiles/StrcUni1.dir/StructYUnion/StrcUni1.c.o.d"
+  "StrcUni1"
   "StrcUni1.pdb"
-  "libStrcUni1.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Str1.dir/Strings/String1.c.obj"
-  "CMakeFiles/Str1.dir/Strings/String1.c.obj.d"
-  "Str1.exe"
-  "Str1.exe.manifest"
+  "CMakeFiles/Str1.dir/Strings/String1.c.o"
+  "CMakeFiles/Str1.dir/Strings/String1.c.o.d"
+  "Str1"
   "Str1.pdb"
-  "libStr1.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

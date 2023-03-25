@@ -9,12 +9,12 @@ struct student {
     float mean;
 };
 
-void save_file(const struct student stud[MAX_ST]) {
+void save_file(const struct student stud[MAX_ST], int amount) {
     FILE *f = fopen("estudiantes.dat", "wb");
     unsigned long long n;
     if (f != NULL) {
-        n = fwrite(stud, sizeof(stud[0]), MAX_ST, f);
-        if (n != MAX_ST) {
+        n = fwrite(stud, sizeof(*stud), amount, f);
+        if (n != amount) {
             printf("Error al grabar\n");
             fclose(f);
             exit(3);
@@ -59,6 +59,6 @@ int main() {
         }
         i++;
     } while (1);
-    save_file(students);
+    save_file(students,i);
     return 0;
 }

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Programacion/Facultad/StructYUnion/StrcUni1.c" "CMakeFiles/StrcUni1.dir/StructYUnion/StrcUni1.c.obj" "gcc" "CMakeFiles/StrcUni1.dir/StructYUnion/StrcUni1.c.obj.d"
+  "/home/die/CLionProjects/Facultad/StructYUnion/StrcUni1.c" "CMakeFiles/StrcUni1.dir/StructYUnion/StrcUni1.c.o" "gcc" "CMakeFiles/StrcUni1.dir/StructYUnion/StrcUni1.c.o.d"
   )
 
 # Targets to which this target links.

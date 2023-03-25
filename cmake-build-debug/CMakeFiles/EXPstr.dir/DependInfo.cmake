@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Programacion/Facultad/Strings/EjemploLibreriaString.c" "CMakeFiles/EXPstr.dir/Strings/EjemploLibreriaString.c.obj" "gcc" "CMakeFiles/EXPstr.dir/Strings/EjemploLibreriaString.c.obj.d"
+  "/home/die/CLionProjects/Facultad/Strings/EjemploLibreriaString.c" "CMakeFiles/EXPstr.dir/Strings/EjemploLibreriaString.c.o" "gcc" "CMakeFiles/EXPstr.dir/Strings/EjemploLibreriaString.c.o.d"
   )
 
 # Targets to which this target links.

@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Str5.dir/Strings/String5.c.obj"
-  "CMakeFiles/Str5.dir/Strings/String5.c.obj.d"
-  "Str5.exe"
-  "Str5.exe.manifest"
+  "CMakeFiles/Str5.dir/Strings/String5.c.o"
+  "CMakeFiles/Str5.dir/Strings/String5.c.o.d"
+  "Str5"
   "Str5.pdb"
-  "libStr5.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
