@@ -71,6 +71,7 @@ all: CMakeFiles/Str4.dir/all
 all: CMakeFiles/Str5.dir/all
 all: CMakeFiles/StrcUni1.dir/all
 all: CMakeFiles/StrcUni2.dir/all
+all: CMakeFiles/StrcUni3.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -86,6 +87,7 @@ clean: CMakeFiles/Str4.dir/clean
 clean: CMakeFiles/Str5.dir/clean
 clean: CMakeFiles/StrcUni1.dir/clean
 clean: CMakeFiles/StrcUni2.dir/clean
+clean: CMakeFiles/StrcUni3.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -295,6 +297,32 @@ StrcUni2: CMakeFiles/StrcUni2.dir/rule
 CMakeFiles/StrcUni2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrcUni2.dir/build.make CMakeFiles/StrcUni2.dir/clean
 .PHONY : CMakeFiles/StrcUni2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/StrcUni3.dir
+
+# All Build rule for target.
+CMakeFiles/StrcUni3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrcUni3.dir/build.make CMakeFiles/StrcUni3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrcUni3.dir/build.make CMakeFiles/StrcUni3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target StrcUni3"
+.PHONY : CMakeFiles/StrcUni3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/StrcUni3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/StrcUni3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/StrcUni3.dir/rule
+
+# Convenience name for target.
+StrcUni3: CMakeFiles/StrcUni3.dir/rule
+.PHONY : StrcUni3
+
+# clean rule for target.
+CMakeFiles/StrcUni3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrcUni3.dir/build.make CMakeFiles/StrcUni3.dir/clean
+.PHONY : CMakeFiles/StrcUni3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

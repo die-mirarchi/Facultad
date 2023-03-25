@@ -50,4 +50,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Str5.dir/DependInfo.cmake"
   "CMakeFiles/StrcUni1.dir/DependInfo.cmake"
   "CMakeFiles/StrcUni2.dir/DependInfo.cmake"
+  "CMakeFiles/StrcUni3.dir/DependInfo.cmake"
   )

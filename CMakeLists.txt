@@ -12,3 +12,4 @@ add_executable(Str5 Strings/String5.c)
 
 add_executable(StrcUni1 StructYUnion/StrcUni1.c)
 add_executable(StrcUni2 StructYUnion/StrUni2.c)
+add_executable(StrcUni3 StructYUnion/StrcUni3.c)

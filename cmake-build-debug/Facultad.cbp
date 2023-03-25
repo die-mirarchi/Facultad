@@ -321,6 +321,44 @@
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="StrcUni3">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/StrcUni3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 StrcUni3"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StrcUni3/fast">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/StrcUni3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 StrcUni3/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
 				<Option type="4"/>
@@ -365,6 +403,9 @@
 		</Unit>
 		<Unit filename="/home/die/CLionProjects/Facultad/StructYUnion/StrcUni1.c">
 			<Option target="StrcUni1"/>
+		</Unit>
+		<Unit filename="/home/die/CLionProjects/Facultad/StructYUnion/StrcUni3.c">
+			<Option target="StrcUni3"/>
 		</Unit>
 		<Unit filename="/home/die/CLionProjects/Facultad/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

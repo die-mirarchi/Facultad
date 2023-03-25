@@ -220,6 +220,19 @@ StrcUni2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrcUni2.dir/build.make CMakeFiles/StrcUni2.dir/build
 .PHONY : StrcUni2/fast
 
+#=============================================================================
+# Target rules for targets named StrcUni3
+
+# Build rule for target.
+StrcUni3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StrcUni3
+.PHONY : StrcUni3
+
+# fast build rule for target.
+StrcUni3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrcUni3.dir/build.make CMakeFiles/StrcUni3.dir/build
+.PHONY : StrcUni3/fast
+
 Strings/EjemploLibreriaString.o: Strings/EjemploLibreriaString.c.o
 .PHONY : Strings/EjemploLibreriaString.o
 
@@ -412,6 +425,30 @@ StructYUnion/StrcUni1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrcUni1.dir/build.make CMakeFiles/StrcUni1.dir/StructYUnion/StrcUni1.c.s
 .PHONY : StructYUnion/StrcUni1.c.s
 
+StructYUnion/StrcUni3.o: StructYUnion/StrcUni3.c.o
+.PHONY : StructYUnion/StrcUni3.o
+
+# target to build an object file
+StructYUnion/StrcUni3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrcUni3.dir/build.make CMakeFiles/StrcUni3.dir/StructYUnion/StrcUni3.c.o
+.PHONY : StructYUnion/StrcUni3.c.o
+
+StructYUnion/StrcUni3.i: StructYUnion/StrcUni3.c.i
+.PHONY : StructYUnion/StrcUni3.i
+
+# target to preprocess a source file
+StructYUnion/StrcUni3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrcUni3.dir/build.make CMakeFiles/StrcUni3.dir/StructYUnion/StrcUni3.c.i
+.PHONY : StructYUnion/StrcUni3.c.i
+
+StructYUnion/StrcUni3.s: StructYUnion/StrcUni3.c.s
+.PHONY : StructYUnion/StrcUni3.s
+
+# target to generate assembly for a file
+StructYUnion/StrcUni3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StrcUni3.dir/build.make CMakeFiles/StrcUni3.dir/StructYUnion/StrcUni3.c.s
+.PHONY : StructYUnion/StrcUni3.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -428,6 +465,7 @@ help:
 	@echo "... Str5"
 	@echo "... StrcUni1"
 	@echo "... StrcUni2"
+	@echo "... StrcUni3"
 	@echo "... Strings/EjemploLibreriaString.o"
 	@echo "... Strings/EjemploLibreriaString.i"
 	@echo "... Strings/EjemploLibreriaString.s"
@@ -452,6 +490,9 @@ help:
 	@echo "... StructYUnion/StrcUni1.o"
 	@echo "... StructYUnion/StrcUni1.i"
 	@echo "... StructYUnion/StrcUni1.s"
+	@echo "... StructYUnion/StrcUni3.o"
+	@echo "... StructYUnion/StrcUni3.i"
+	@echo "... StructYUnion/StrcUni3.s"
 .PHONY : help
 
 

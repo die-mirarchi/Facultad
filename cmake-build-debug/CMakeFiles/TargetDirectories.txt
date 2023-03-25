@@ -6,5 +6,6 @@
 /home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Str5.dir
 /home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/StrcUni1.dir
 /home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/StrcUni2.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/StrcUni3.dir
 /home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/rebuild_cache.dir
