@@ -1,4 +1,11 @@
-C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Str1.dir
-C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Str2.dir
-C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/DIGID/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/EXPstr.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Str1.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Str2.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Str3.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Str4.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Str5.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/StrcUni1.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/StrcUni2.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/StrcUni3.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/die/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/rebuild_cache.dir

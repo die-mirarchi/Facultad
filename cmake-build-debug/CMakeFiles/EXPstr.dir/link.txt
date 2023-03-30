@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/EXPstr.dir/Strings/EjemploLibreriaString.c.o -o EXPstr 

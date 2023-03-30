@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Facultad"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EXPstr">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/EXPstr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 EXPstr"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EXPstr/fast">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/EXPstr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 EXPstr/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str1">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/Str1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str1"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str1/fast">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/Str1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str2">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/Str2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str2"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str2/fast">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/Str2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str3">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/Str3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str3"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str3/fast">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/Str3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str3/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str4">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/Str4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str4"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str4/fast">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/Str4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str4/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str5">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/Str5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str5"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Str5/fast">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/Str5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 Str5/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StrcUni1">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/StrcUni1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 StrcUni1"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StrcUni1/fast">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/StrcUni1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 StrcUni1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StrcUni2">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/StrcUni2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 StrcUni2"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StrcUni2/fast">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/StrcUni2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 StrcUni2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StrcUni3">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/StrcUni3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 StrcUni3"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StrcUni3/fast">
+				<Option output="/home/die/CLionProjects/Facultad/cmake-build-debug/StrcUni3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 StrcUni3/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/die/CLionProjects/Facultad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/die/CLionProjects/Facultad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/die/CLionProjects/Facultad/Strings/EjemploLibreriaString.c">
+			<Option target="EXPstr"/>
+		</Unit>
+		<Unit filename="/home/die/CLionProjects/Facultad/Strings/String1.c">
+			<Option target="Str1"/>
+		</Unit>
+		<Unit filename="/home/die/CLionProjects/Facultad/Strings/String2.c">
+			<Option target="Str2"/>
+		</Unit>
+		<Unit filename="/home/die/CLionProjects/Facultad/Strings/String3.c">
+			<Option target="Str3"/>
+		</Unit>
+		<Unit filename="/home/die/CLionProjects/Facultad/Strings/String4.c">
+			<Option target="Str4"/>
+		</Unit>
+		<Unit filename="/home/die/CLionProjects/Facultad/Strings/String5.c">
+			<Option target="Str5"/>
+		</Unit>
+		<Unit filename="/home/die/CLionProjects/Facultad/StructYUnion/StrUni2.c">
+			<Option target="StrcUni2"/>
+		</Unit>
+		<Unit filename="/home/die/CLionProjects/Facultad/StructYUnion/StrcUni1.c">
+			<Option target="StrcUni1"/>
+		</Unit>
+		<Unit filename="/home/die/CLionProjects/Facultad/StructYUnion/StrcUni3.c">
+			<Option target="StrcUni3"/>
+		</Unit>
+		<Unit filename="/home/die/CLionProjects/Facultad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
