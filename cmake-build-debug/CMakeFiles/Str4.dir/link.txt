@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/Str4.dir/Strings/String4.c.o -o Str4 

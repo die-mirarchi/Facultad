@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/Str2.dir/Strings/String2.c.o -o Str2 

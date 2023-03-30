@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/StrcUni2.dir/StructYUnion/StrUni2.c.o -o StrcUni2 
