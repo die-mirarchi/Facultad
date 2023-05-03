@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/EXPstr.dir/Strings/EjemploLibreriaString.c.o CMakeFiles/EXPstr.dir/DInamicMemory/dmem1.c.o -o EXPstr 

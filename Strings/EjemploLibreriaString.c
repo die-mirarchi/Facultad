@@ -17,7 +17,7 @@ int main() {
     }
 
     // Usando strlen para obtener la longitud de una cadena
-    printf("La longitud de la cadena '%s' es %llu.\n", string1, strlen(string1));
+    printf("La longitud de la cadena '%s' es %lu.\n", string1, strlen(string1));
 
     return 0;
 }

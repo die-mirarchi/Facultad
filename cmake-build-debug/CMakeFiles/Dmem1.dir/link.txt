@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Dmem1.dir/DInamicMemory/dmem1.c.o CMakeFiles/Dmem1.dir/DInamicMemory/dmem2.c.o -o Dmem1 
