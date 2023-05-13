@@ -246,6 +246,19 @@ Dmem1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dmem1.dir/build.make CMakeFiles/Dmem1.dir/build
 .PHONY : Dmem1/fast
 
+#=============================================================================
+# Target rules for targets named Integrador
+
+# Build rule for target.
+Integrador: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Integrador
+.PHONY : Integrador
+
+# fast build rule for target.
+Integrador/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integrador.dir/build.make CMakeFiles/Integrador.dir/build
+.PHONY : Integrador/fast
+
 DInamicMemory/dmem1.o: DInamicMemory/dmem1.c.o
 .PHONY : DInamicMemory/dmem1.o
 
@@ -296,6 +309,30 @@ DInamicMemory/dmem2.s: DInamicMemory/dmem2.c.s
 DInamicMemory/dmem2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dmem1.dir/build.make CMakeFiles/Dmem1.dir/DInamicMemory/dmem2.c.s
 .PHONY : DInamicMemory/dmem2.c.s
+
+Parciales/Integrador_clase.o: Parciales/Integrador_clase.c.o
+.PHONY : Parciales/Integrador_clase.o
+
+# target to build an object file
+Parciales/Integrador_clase.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integrador.dir/build.make CMakeFiles/Integrador.dir/Parciales/Integrador_clase.c.o
+.PHONY : Parciales/Integrador_clase.c.o
+
+Parciales/Integrador_clase.i: Parciales/Integrador_clase.c.i
+.PHONY : Parciales/Integrador_clase.i
+
+# target to preprocess a source file
+Parciales/Integrador_clase.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integrador.dir/build.make CMakeFiles/Integrador.dir/Parciales/Integrador_clase.c.i
+.PHONY : Parciales/Integrador_clase.c.i
+
+Parciales/Integrador_clase.s: Parciales/Integrador_clase.c.s
+.PHONY : Parciales/Integrador_clase.s
+
+# target to generate assembly for a file
+Parciales/Integrador_clase.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integrador.dir/build.make CMakeFiles/Integrador.dir/Parciales/Integrador_clase.c.s
+.PHONY : Parciales/Integrador_clase.c.s
 
 Strings/EjemploLibreriaString.o: Strings/EjemploLibreriaString.c.o
 .PHONY : Strings/EjemploLibreriaString.o
@@ -523,6 +560,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Dmem1"
 	@echo "... EXPstr"
+	@echo "... Integrador"
 	@echo "... Str1"
 	@echo "... Str2"
 	@echo "... Str3"
@@ -537,6 +575,9 @@ help:
 	@echo "... DInamicMemory/dmem2.o"
 	@echo "... DInamicMemory/dmem2.i"
 	@echo "... DInamicMemory/dmem2.s"
+	@echo "... Parciales/Integrador_clase.o"
+	@echo "... Parciales/Integrador_clase.i"
+	@echo "... Parciales/Integrador_clase.s"
 	@echo "... Strings/EjemploLibreriaString.o"
 	@echo "... Strings/EjemploLibreriaString.i"
 	@echo "... Strings/EjemploLibreriaString.s"

@@ -8,5 +8,6 @@
 /home/dieguito/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/StrcUni2.dir
 /home/dieguito/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/StrcUni3.dir
 /home/dieguito/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Dmem1.dir
+/home/dieguito/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/Integrador.dir
 /home/dieguito/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/dieguito/CLionProjects/Facultad/cmake-build-debug/CMakeFiles/rebuild_cache.dir

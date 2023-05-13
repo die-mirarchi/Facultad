@@ -14,4 +14,5 @@ add_executable(StrcUni1 StructYUnion/StrcUni1.c)
 add_executable(StrcUni2 StructYUnion/StrUni2.c)
 add_executable(StrcUni3 StructYUnion/StrcUni3.c)
 
-add_executable(Dmem1 DInamicMemory/dmem1.c DInamicMemory/dmem2.c)
+add_executable(Dmem1 DInamicMemory/dmem1.c DInamicMemory/dmem2.c )
+add_executable(Integrador "Parciales/Integrador clase.c")
